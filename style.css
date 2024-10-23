@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 375px;
+    height: 390px;
+
+    background: url(imagens/image-michael-jordan.png) no-repeat;
+    background-size: cover;
+}
+
+header > h4 {
+    background-color: white;
+    padding: 5px;
+    text-align: center;   
+}
+
+.titulo_h {
+    display: block;
+    padding: 10px;
+    color: white;
+    margin: 20px 5px 5px 5px;
+    position: relative;
+    top: 40%;
+    
+}
+
+header > h1 {
+ 
+}
+
+main {
+    position: relative;
+    width: 375px;
+    height: 2812px;
+}
