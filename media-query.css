@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    html, css {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    header {
+        width: 768px;
+        height: 375px;
+    }
+
+    .titulo_h > p {
+        font-size: 1em;
+        width: 340px;
+    }
+
+    main {
+        width: 768px;
+    }
+
+    section.principal {
+        height: 1300px;
+    }
+
+    section.conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tenis > img {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    html, css {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-60%, -50%);
+    }
+
+    header {
+        width: 1920px;
+        height: 390px;
+    }
+
+    main {
+        width: 1920px;
+    }
+
+    section.principal {
+        height: 900px;
+    }
+
+    section.conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px 400px;
+        margin-left: 70px;
+    }
+}

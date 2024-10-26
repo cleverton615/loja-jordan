@@ -15,8 +15,7 @@ html, body {
     position: absolute;
     top: 50%;
     left: 50%;
-    overflow-x: hidden;
-    transform: translate(-30%, -50%);
+    transform: translate(-40%, -50%);
 }
 
 header {
@@ -62,16 +61,14 @@ section.principal {
     height: 2422px;    
 }
 
-section.inicio {
-    text-align: center;
-}
-
 section.inicio > h1 {
+    text-align: center;
     font-size: 1.2em;
     padding: 40px 0px 10px 0px;
 }
 
 section.inicio > p {
+    text-align: center;
     padding: 10px;
     line-height: 140%;
 }
@@ -96,12 +93,15 @@ section.conteudo {
     width: 319px;
     height: 200px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .categoria {
     color: blue;
+    text-decoration: underline;
 }
 
 .preco {
     font-weight: 800;
+    cursor: pointer;
 }
